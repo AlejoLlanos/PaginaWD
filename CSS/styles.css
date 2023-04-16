@@ -1,0 +1,56 @@
+body {
+  background-image: url(https://www.color-meanings.com/wp-content/uploads/Red_and_blue_mix.jpeg);
+  background-size: cover; /* hace que la imagen cubra todo el fondo */
+  /*background-position: center center;  hace que la imagen esté centrada */
+}
+a:link, a:visited {
+  background-image:linear-gradient(to left, rgb(121, 13, 13),rgb(97, 97, 231));
+  color: rgb(88, 230, 255);
+  text-decoration: none;
+  padding:10px 10px;
+  display:inline-block;
+  border-style: solid;
+  border-color: black;
+
+}
+a:hover, a:active {
+  background-color:blue;
+  color: red;
+  text-decoration: none;
+  border-style: solid;
+  border-color: red;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main{
+  display: flex; /* activa flexbox */
+  justify-content: center;
+  align-items: center; /* centrar verticalmente */
+}
+.imagenesFundadores{ 
+  display: flex; /* activa flexbox */
+  justify-content: space-between;
+  align-items: center; /* centrar verticalmente */
+  /*border-style: dashed;*/
+  /*border-color: red;*/
+  width: 600px
+  
+}
+.descripcion{
+  display: block;
+  justify-content: center;
+}
+.test{
+  display: flex;
+  justify-content: center;
+  /*border-style: dashed; */
+  /*border-color: blue;*/
+}
+
+h1{
+  color: bisque;
+}
